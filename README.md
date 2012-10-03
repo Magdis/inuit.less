@@ -23,45 +23,54 @@ _lot_ more.
 * You are a confident/competent developer comfortable with OOCSS and Sass, as
   well as familiarity with OO principles in general.
 
+**Use inuit.less if:**
+* You use a LESS CSS framework.
+
 **Do not use inuit.css if:**
 
 * You need a framework that supplies design (I’d recommend
   [Bootstrap](http://twitter.github.com/bootstrap/) for that).
 
-## The developer
+** Do not use inuit.less if:**
+* You use the a SASS framework.
 
-There are a million-and-one different CSS frameworks out there so this rather
+## From the developer of Inuit.css
+
+"There are a million-and-one different CSS frameworks out there so this rather
 cringeworthy section is an attempt to validate inuit.css and give it some
 credibility…
 
-I am [Harry Roberts](http://hry.rbrts.me), I am a 22 year old developer and
+"I am [Harry Roberts](http://hry.rbrts.me), I am a 22 year old developer and
 front-end architect from the UK. I work as a Senior UI Developer for
 [BSkyB](http://en.wikipedia.org/wiki/BSkyB) where it is my job to build scalable
 front-ends, write internally used CSS frameworks and libraries, and to architect
 CSS and front-end builds.
 
-I [write](http://csswizardry.com), [tweet](http://twitter.com/csswizardry) and
+"I [write](http://csswizardry.com), [tweet](http://twitter.com/csswizardry) and
 [speak](http://speakerdeck.com/u/csswizardry/) about OOCSS, scalable CSS,
 maintainability, working in large teams, CSS performance, CSS architecture and a
 whole lot more.
 
-inuit.css is the result of years of my specialism in CSS (as CSS is all I do).
+"inuit.css is the result of years of my specialism in CSS (as CSS is all I do).
 It is a collection of design patterns, objects and abstractions that have been
 refined and bulletproofed over hours of development across an array of projects
 of varying sizes. inuit.css is the result of hundreds of hours of work all
-condensed into one powerful little framework.
+condensed into one powerful little framework."
+
+## From the translator of Inuit.less
+
+"I'm ShnizmuffiN. I enjoy jamming square pegs into round holes."
 
 ## Installation
 
 inuit.css is incredibly easy to get up and running (provided you’re all set for
-Sass). Simply [download the latest version](https://github.com/csswizardry/inuit.css/zipball/master)
-of inuit.css from right here on GitHub, unpack the zip file, rename
-`your-project.scss` to whatever your project is called and then watch that file
-to a minified version with:
+LESS). Simply [download the latest version](https://github.com/shnizmuffin/inuit.less/zipball/master)
+of inuit.less from right here on GitHub, unpack the zip file, rename
+`your-project.less` to whatever your project is called and then dump it in your website's root dir.
 
-    sass --watch [your-project].scss:[your-project].min.css --style compressed
-
-<small>…where `[your-project]` is the name you have chosen for your build.</small>
+<small>…where `[your-project]` is the name you have chosen for your build. Also,
+you might have to screw around with the filepaths inside `your-project.less`.
+Don't worry, less.js will absolutely freak out if something's undefined.</small>
 
 It is important to **compile to a minified file** because inuit.css is packed
 full of comments and whitespace; so much so that it would be detrimental to
@@ -69,28 +78,16 @@ your website’s performance to serve the unminified version.
 
 ## Documentation
 
-There are no official docs for inuit.css because the code _is_ the
+There are no official docs for inuit.less because the code _is_ the
 documentation. Everything is heavily commented with example HTML. If you
-struggle with anything please tweet at [@inuitcss](http://twitter.com/inuitcss)
-and/or [open an issue](https://github.com/csswizardry/inuit.css/issues) and I’ll
-try help out and use your feedback to improve the documentation.
-
-## Test-drive
-
-If you would like to try inuit.css out before you download anything there is a
-compiled version [on jsFiddle](http://jsfiddle.net/csswizardry/RJqdH/) that you
-are encouraged to fork and play with. Refer back to
-[the source here on GitHub](https://github.com/csswizardry/inuit.css/blob/master/inuit.css/inuit.scss)
-for documentation.
-
-## As used by
-
-* [BSkyB](http://en.wikipedia.org/wiki/BSkyB)
+struggle with anything please figure it out yourself
+and/or [open an issue](https://github.com/shnizmuffin/inuit.less/issues) and I’ll
+maybe sometimes help out and use your feedback to improve the documentation.
 
 ### Using inuit.css?
 
-If you use inuit.css on a live project then [tweet at me](http://twitter.com/inuitcss)
-and I’ll send you some inuit.css stickers!
+If you use inuit.css on a live project then [tweet at the original author](http://twitter.com/inuitcss)
+and they'll send you some inuit.css stickers!
 
 ## Credits
 
